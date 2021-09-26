@@ -1,0 +1,608 @@
+#Head{
+    border-bottom: 1px solid #dbdbdb;
+    padding: 11px 0 13px 0px;
+}
+#Head .FirstTitle{
+    display: inline-block;
+}
+#Head .FirstTitle ul{
+    text-transform: uppercase;
+}
+#Head .FirstTitle ul li{
+    padding-left: 7px;
+    display: inline-block;
+}
+#Head .FirstTitle ul li:nth-child(4){
+    padding-right: 456px;
+}
+#Head .FirstTitle ul li a {
+    padding: 14px;
+    font-size: 12px;
+    line-height: 0px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #666;
+    border-right: 1px solid #dbdbdb;
+    text-decoration: none;
+}
+#Head .FirstTitle ul li a i{
+    padding-left: 6px;
+}
+#Head .SecondTitle{
+    display: inline-block;
+}
+#Head .SecondTitle ul{
+    list-style: none;
+}
+#Head .SecondTitle ul li{
+    display: inline-block;
+    padding-left: 15px;
+}
+#Head .SecondTitle ul li a{
+    padding: 14px;
+    margin-left: -16px;
+    font-size: 12px;
+    line-height: 0px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #666;
+    border-right: 1px solid #dbdbdb;
+}
+#Head .SecondTitle ul li a :nth-child(8){
+    border-right: 0px solid #dbdbdb;
+}
+
+
+
+#structure .Header {
+    position: relative;
+    height: 100px;
+}
+
+#structure .Header .icon {
+    position: absolute;
+    left: 0;
+}
+
+#structure .Header .icon a img {
+    float: left;
+    border-right: 1px solid #dbdbdb;
+    padding: 0 43px;
+    border-left: 1px solid #dbdbdb;
+}
+
+#structure .Header .list {
+    display: inline-block;
+    position: absolute;
+    right: 136px;
+}
+
+#structure .Header .list ul {
+    text-transform: uppercase;
+    list-style: none;
+    position: relative;
+    padding-right: 0px;
+    border-right: 1px solid #dbdbdb;
+    padding: 41px 43px;
+}
+
+#structure .Header .list ul li {
+    display: inline-block;
+    padding-right: 19px;
+}
+
+#structure .Header .list ul li a {
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 800;
+    color: #444;
+}
+
+#structure .parametr {
+    position: fixed;
+    border: 0.5px solid #dbdbdb;
+    width: 45px;
+    height: 40px;
+    border-radius: 5px;
+    right: 30px;
+    background: white;
+    padding: 5px 0px 5px 0px;
+}
+
+#structure .parametr .parametr1 {
+    padding: 10px 11px 3px 8px;
+    font-size: 25px;
+}
+#structure .parametr .parametr1 i {
+    color: black;
+}
+#structure .parametr .parametr2 i {
+    color: black;
+}
+
+#structure .parametr .parametr2 {
+    position: relative;
+    font-size: 18px;
+    top: -20px;
+    right: -23px;
+    background: white;
+    padding: 1px 0px 0px 0px;
+    margin-right: 29px;
+    border-radius: 50%;
+}
+
+#structure .Header .Search {
+    position: absolute;
+    right: 31px;
+    top: 40px;
+}
+
+#structure .Header .Search .search1 {
+    display: inline-block;
+}
+
+#structure .Header .Search .search a i {
+    padding-left: 15px;
+}
+
+#structure .Header .Search .search a i:last-child {
+    padding-left: 15px;
+    opacity: 0;
+}
+
+#structure .Header .Search .search2 {
+    display: inline-block;
+    margin-left: 10px;
+
+}
+
+#structure .Header .Search .search2 a i {
+    z-index: 5;
+}
+
+#structure .Header .Search .number {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: relative;
+    top: -11px;
+    left: -12px;
+    font-size: 10px;
+    background-color: #1abc9c;
+    color: white;
+    text-indent: 0;
+    opacity: 0.6;
+    text-align: left;
+    padding: 2px 4px 2px 4px;
+    margin-left: 0px;
+}
+
+#structure .account {
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #eee;
+    padding: 45px 0;
+}
+
+#structure .account h1 {
+    text-transform: uppercase;
+    font-size: 32px;
+    color: black;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 1;
+}
+
+#structure .account ul {
+    list-style: none;
+}
+
+#structure .account ul li {
+    display: inline-block;
+}
+
+#structure .account ul li a {
+    text-decoration: none;
+}
+
+#structure .form-group span {
+    float: right;
+    color: #1abc9c;
+    cursor: pointer;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+#structure .form-group span:hover{
+    color: black;
+}
+
+
+#structure .form-group {
+    padding-bottom: 73px;
+}
+
+#structure .form-group .test label {
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #555;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+#structure .form-group .test input {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    padding-left: 5px;
+}
+
+#structure .form-group .submit button {
+    padding: 10px 25px;
+    color: #fff;
+    background-color: #000000;
+    border-color: black;
+    border-radius: 7px;
+}
+
+#structure .form-group h2 {
+    font-weight: 600;
+    text-indent: 30px;
+    padding-bottom: 20px;
+    color: #444;
+}
+
+#structure .form-group h2:first-child {
+    padding-bottom: 60px;
+    padding-top: 70px;
+}
+
+#structure .form-group p {
+    padding-bottom: 25px;
+}
+
+
+
+
+#Finish .Foot {
+    background-color: #282828;
+    padding: 55px 0 81px 0;
+    border-top: 8px solid rgba(0, 0, 0, 15);
+    border-top-color: rgba(255, 255, 255, 0.15);
+}
+
+#Finish .Foot .Logo img {
+    padding-bottom: 30px;
+}
+
+#Finish .Foot .Full {
+    background-image: url("../img/world-map.png");
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#Finish .Foot .Full .Design {
+    padding-bottom: 25px;
+    color: #EEE;
+}
+
+#Finish .Foot .Full .Design p {
+    color: #EEE;
+}
+
+#Finish .Foot .Full .Site1 {
+    padding-bottom: 25px;
+    color: #EEE;
+}
+
+#Finish .Foot .Full .Site1 p {
+    color: #EEE;
+}
+
+#Finish .Foot .Full .Site2 {
+    padding-bottom: 25px;
+    color: #EEE;
+}
+
+#Finish .Foot .Full .Site2 span {
+    color: #EEE;
+    border-bottom: 0.5px dashed;
+    cursor: help;
+}
+
+#Finish .Foot .Full .Site2 a {
+    color: #EEE;
+    text-decoration: none;
+}
+
+#Finish .Foot .blog h1 {
+    color: #EEE;
+    padding-bottom: 30px;
+}
+
+#Finish .Foot .blog ul {
+    list-style: none;
+    color: #EEE;
+}
+
+#Finish .Foot .blog ul li {
+    color: #EEE;
+    padding-bottom: 8.5px;
+}
+
+#Finish .Foot .blog ul li a {
+    color: #EEE;
+    text-decoration: none;
+}
+
+#Finish .Foot .blog ul li a i {
+    color: #EEE;
+}
+
+#Finish .Foot .post {
+    color: #EEE;
+}
+
+#Finish .Foot .post h1 {
+    color: #EEE;
+    padding-bottom: 30px;
+}
+
+#Finish .Foot .post .date {
+    padding-bottom: 15px;
+    color: #EEE;
+}
+
+#Finish .Foot .post .date a {
+    color: #EEE;
+    text-decoration: none;
+}
+
+#Finish .Foot .post .date span {
+    color: #EEE;
+}
+
+#Finish .Foot .post .date span:nth-child(1) {
+    font-family: 'Poppins', sans-serif;
+    color: #EEE;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+#Finish .Foot .count .Dowunload {
+    padding-bottom: 20px;
+    color: #EEE;
+}
+
+#Finish .Foot .count p {
+    padding-bottom: 30px;
+    color: #EEE;
+}
+
+#Finish .Foot .count .Dowunload .download {
+    display: inline-block;
+    margin-right: 15px;
+    color: #EEE;
+}
+
+#Finish .Foot .count .Dowunload .download span {
+    color: #EEE;
+}
+
+#Finish .Foot .count .Dowunload .download span:nth-child(1) {
+    color: #EEE;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+#Finish .Foot .count .Dowunload .client {
+    display: inline-block;
+    color: #EEE;
+}
+
+#Finish .Foot .count .Dowunload .client span {
+    color: #EEE;
+}
+
+#Finish .Foot .count .Dowunload .client span:nth-child(1) {
+    color: #EEE;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+#Finish .Foot .count .subscribe {
+    padding-bottom: 40px;
+    color: #EEE;
+}
+
+#Finish .Foot .count .subscribe a {
+    color: #EEE;
+    padding: 4.8px 8px 5.8px 9px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #212529;
+    border: 1px solid dimgray;
+    position: relative;
+    margin-left: 0px;
+    top: 1px;
+    line-height: 1.7;
+    text-align: center;
+}
+
+#Finish .Foot .count .subscribe a i {
+    color: #EEE;
+}
+
+#Finish .Foot .count .subscribe input {
+    height: 30px;
+    margin-right: 0;
+    width: 184px;
+    margin: -8px -5px;
+    background-color: #212529;
+    border: 1px solid;
+    border: 1px solid dimgray;
+}
+
+#Finish .Foot .count .subscribe button {
+    color: #EEE;
+    background-color: #198754;
+    width: 100px;
+    border: 1px solid dimgray;
+    height: 31px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#Finish .Foot .count .Space {
+    color: #EEE;
+}
+
+#Finish .Foot .count .Space .likeFacebook {
+    display: inline-block;
+    color: #EEE;
+}
+
+#Finish .Foot .count .Space .likeFacebook a {
+    color: #EEE;
+    padding: 3px 14px 0.8px 14px;
+    border-radius: 5px;
+    background-color: #212529;
+    border: 1px solid;
+    position: relative;
+    margin-left: 0px;
+    top: -6px;
+    line-height: 1.7;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    margin-right: 4px;
+    background-color: rgb(59, 89, 152);
+}
+
+#Finish .Foot .count .Space .likeFacebook a i {
+    color: #EEE;
+}
+
+#Finish .Foot .count .Space .likeFacebook .spans {
+    color: #EEE;
+    display: inline-block;
+    margin-right: 25px;
+}
+
+#Finish .Foot .count .Space .likeFacebook .spans span {
+    font-size: 12px;
+    color: #EEE;
+}
+
+#Finish .Foot .count .Space .Space1 {
+    display: inline-block;
+    color: #EEE;
+}
+
+#Finish .Foot .count .Space .Space1 a {
+    color: #EEE;
+    padding: 4px 10px 0.8px 12px;
+    border-radius: 5px;
+    background-color: #212529;
+    border: 1px solid;
+    position: relative;
+    margin-left: 0px;
+    top: -6px;
+    line-height: 1.7;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    margin-right: 4px;
+    background-color: #fd7e14;
+}
+
+#Finish .Foot .count .Space .Space1 a i {
+    color: #EEE;
+}
+
+#Finish .Foot .count .Space .Space1 .spans {
+    display: inline-block;
+    color: #EEE;
+}
+
+#Finish .Foot .count .Space .Space1 .spans span {
+    color: #EEE;
+    font-size: 10px;
+}
+
+
+
+#Finish .Foot2 {
+    padding: 10px 0;
+    color: rgba(255, 255, 255, 0.4);
+    background-color: #212529;
+}
+
+#Finish .Foot2 .space ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+#Finish .Foot2 .space ul li a {
+    text-decoration: none;
+    border-bottom: 0.5px dashed;
+}
+
+#Finish .Foot2 .AboutAs .social {
+    padding-bottom: 10px;
+    text-align: right;
+}
+
+#Finish .Foot2 .AboutAs .social ul li {
+    display: inline-block;
+    padding-left: 15px;
+    text-align: right;
+}
+
+#Finish .Foot2 .AboutAs .social ul li i {
+    display: inline-block;
+    padding-left: 15px;
+    
+}
+
+#Finish .Foot2 .AboutAs .social ul li a {
+    text-decoration: none;
+}
+
+#Finish .Foot2 .AboutAs .info ul li {
+    display: inline-block;
+    padding-left: 0px;
+    margin-left: -8px;
+}
+
+#Finish .Foot2 .AboutAs .info ul li i {
+    display: inline-block;
+    padding-left: 15px;
+}
+
+#Finish .end {
+    position: fixed;
+    border: 0px solid black;
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    right: 27px;
+    background: #3a3a3a63;
+    bottom: 26px;
+    font-weight: 100;
+}
+
+#Finish .end .theend {
+    padding: 12px 14px;
+    font-size: 17px;
+}
+#Finish .end .theend i{
+    color: white;
+}
